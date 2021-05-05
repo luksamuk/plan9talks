@@ -1,2 +1,5 @@
-Configuraçao de fonte
+Configuraçao de fonte do Plan 9:
 Font /lib/font/bit/pelm/unicode.9x24.font
+
+Configuraçao de fonte para plan9port:
+Font /usr/lib/plan9/font/pelm/unicode.9.font
