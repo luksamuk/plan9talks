@@ -1,0 +1,12 @@
+Prospectos
+----------
+
+	Plan 9 precisa de uma comunidade!
+
+	- Bootcamps do SDF.org com acesso temporario gratis;
+	- Lista de emails amigavel: plan9-l@sdf.org;
+	- Popular entre Golangueiros;
+	- Implementacoes de 9P em Rust/Tokio[1].
+
+[1] https://github.com/pfpacket/rust-9p
+

@@ -1,0 +1,13 @@
+Plan 9 nao e Unix
+-----------------
+Algumas diferenças:
+
+	- root            -> sem permissoes por padrao;
+	- sockets         -> ver dial(2);
+	- symlinks        -> ver bind(1);
+	- pthreads        -> ver thread(2);
+	- *.so            -> compilaçao estatica;
+	- emacs, vi       -> acme(1), sam(1);
+	- gcc, C++, etc   -> 2c(1), 2l(1);
+	- Makefile, CMake -> mk(1).
+

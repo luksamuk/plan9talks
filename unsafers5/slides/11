@@ -1,0 +1,13 @@
+Exemplos
+--------
+
+-> plumber(4)
+	- Interacao interprocessos via texto;
+	- Flexivel, poderoso, programavel (via regras);
+	- Funciona atraves da rede.
+
+	Exemplo: Vamos visitar https://unsafe.rs.
+
+-> Email
+	- Acessivel via nedmail(1) e acme(1);
+	- faces(1).

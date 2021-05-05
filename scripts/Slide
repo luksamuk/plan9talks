@@ -1,0 +1,25 @@
+#!/bin/rc
+# Slide[-+] - go back and forwards in a slide show
+# usage: Slide[-+]
+#
+# bugs:  slides must be named 1, 2, 3...
+#        to "install" the script copy it to /acme/bin/Slide{,-,+}
+
+switch($0){
+case *Slide
+    ls `{pwd}
+    exit
+case *Slide+
+    page=`{echo `{basename $%} + 1 | hoc}
+    if(! test -f $page) exit
+case *Slide-
+    page=`{echo `{basename $%} - 1 | hoc}
+    if(! test -f $page) exit
+case *
+    echo Error: bogus program name!
+    exit wrongname
+}
+
+echo 'name '`{pwd}^/$page'' > /mnt/acme/$winid/ctl
+echo clean > /mnt/acme/$winid/ctl
+echo get   > /mnt/acme/$winid/ctl

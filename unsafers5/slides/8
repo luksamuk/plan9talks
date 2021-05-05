@@ -1,0 +1,14 @@
+Filosofia do Sistema
+--------------------
+	Esqueça os ultimos 40 anos de legado do Unix.
+
+	- Everything is a file tree: Todos os recursos
+	  sao acessados como arquivos em um FS hierarquico;
+	- Protocolo 9P: Unico e transparente p/ acessar
+	  recursos, independente de sua localizaçao;
+	- Namespaces privados: Cada processo customiza
+	  sua "visao do mundo" dos recursos da rede.
+
+	Vide: /net, /mnt/factotum (auth), /dev/draw,
+		  /proc, /env, /mail/fs, /dev/window,
+		  /dev/screen...

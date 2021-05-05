@@ -1,0 +1,14 @@
+Exemplos
+--------
+
+-> Rio
+	- Funciona como um editor de texto.
+	- Programas usam suas features (plumber,
+	  chording, tab completion).
+
+-> acme(1)
+	- Janelas stack-based.
+	- Todo o texto e editavel e executavel.
+	- Interface com o FS leva a programabilidade.
+	- Editar/visualizar email, wiki, debugger...
+

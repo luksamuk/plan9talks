@@ -1,0 +1,15 @@
+Exemplos
+--------
+
+-> Screenshot da tela
+	cat /dev/screen | topng >$home/foto.png
+
+-> Requisiçao HTTP
+	#include <u.h>
+	#include <libc.h>
+	...
+	fd = dial(netmkaddr("exemplo.com", "tcp", "8080"), 0, 0, 0);
+	if(fd < 0) {
+		sysfatal("dial: Impossivel conectar: %r");
+		exits("dial");
+	}

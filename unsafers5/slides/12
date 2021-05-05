@@ -1,0 +1,17 @@
+Blue Gene[1]
+---------
+
+	Arquitetura de supercomputador em cluster.
+
+	Cinco tipos de conexoes, quatro exclusivas da arquitetura.
+
+	Protocolos de comunicacao entre vizinhos (Torus) e de
+	roteamento de mensagens em grupos (Tree) de/para servidores
+	de I/O, conectados a internet (Ethernet).
+
+	Plan 9 foi usado nos computadores do cluster (I/O usava
+	Linux).
+
+[1] bluegene.jpg
+
+
